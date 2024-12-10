@@ -43,7 +43,17 @@ sudo apt update && sudo apt upgrade
 sudo apt install build-essential pkg-config libssl-dev git-all
 sudo apt install -y protobuf-compiler
 ```
-### 3. Install Nexus CLI:
+### 3. Create screen
+```
+screen -S nexus
+```
+### 4. Install Nexus CLI:
 ```
 curl https://cli.nexus.xyz/ | sh
+```
+### 5. Useful commands
+- Exit screen: Ctrl A + D
+- Access screen:
+```
+screen -r nexus
 ```
